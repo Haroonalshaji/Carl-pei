@@ -1,0 +1,176 @@
+*{
+    margin: 0px ;
+    font-family: 'DotGothic16', sans-serif;
+    transition: 0.2s;
+}
+
+/* navogation */
+
+nav{
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+}
+a{
+    text-decoration: none;
+    color: silver;
+}
+a:hover{
+    color: white;
+}
+#navli{
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+#top-nav{
+    display: flex;
+    margin: 15px;
+    
+}
+/* navigation ends */
+
+/* main body section start*/
+
+section{
+    height: 700px;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    color: silver;
+}
+.left-sec{
+    width: 50%;
+}
+#carl-pei{
+    height: 680px;
+}
+.right-sec{
+    color: silver;
+    width: 50%;
+    text-align: center  ;
+    background-color:black;
+}
+#home-head{
+    padding-top: 250px;
+    padding-right: 500px;
+}
+#home-head:hover{
+    color: white;
+    font-size: xx-large;
+}
+#home-para{
+    justify-content: center;
+    text-align: start;
+    margin: 35px;
+    padding-left: 29px;
+}
+/* About Section */
+#carl-pei_2{
+    height: 500px;
+}
+.Right-abt{
+    text-align: center;
+    
+}
+#about-head{
+    text-align: center;
+    font-size: x-large;
+}
+
+#about-head:hover{
+    font-size: xx-large;
+    color: white;
+}
+
+.left-abt{
+    margin: 50px;
+    margin-top: 200px;
+}
+
+#nothing-img{
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+}
+#nothing-img:hover{
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.parent{
+    background-color:black;
+    color: silver;
+    text-align: center;
+    height: 150px;
+}
+
+.left-nothing{
+margin: 75px;
+}
+
+#products{
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+.phone12{
+    height: 300px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+}
+.phone12:hover{
+    box-shadow: 1px 1px 25px gray;
+}
+
+.enlarge{
+    font-size: large;
+    margin-top: 15px;
+}
+.enlarge:hover{
+    font-size: x-large;
+}
+
+#specs{
+    color: rgb(255, 255, 255);
+}
+#specs:hover{
+    text-decoration: overline;
+}
+
+
+/* main body section end*/
+
+
+/* footer starts here */
+footer{
+    background-color:black;
+    color: silver;
+    display: flex;
+    justify-content: space-evenly;
+    height: 250px;
+}
+
+.line{
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.innerline{
+    background-color: grey;
+    height: 2px;
+    width:  80%;
+    border-radius: 50%;
+
+}
+
