@@ -173,4 +173,15 @@ footer{
     border-radius: 50%;
 
 }
+.copyright{
+    background-color: rgb(0, 0, 0);
+    justify-content: space-evenly;
+    color: silver;
+    display: flex;
+    height: 100px;
+}
+
+.logo{
+    margin-right: 250px;
+}
 
